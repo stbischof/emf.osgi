@@ -1,11 +1,11 @@
 -resourceonly: true
 -includeresource: resources
 Provide-Capability: \
-	${gecko-base}
+	${fennec-base}
 
-gecko-base:\
+fennec-base:\
     bnd.library;\
-        bnd.library     = enable-emf; \
+        bnd.library     = enableEMF; \
         version			= 1.0.0;\
         path            = template
 Bundle-Name: EMF OSGi Project Library

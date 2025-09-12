@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/org.gecko.bndtools.templates.emf.model">
-  <OCD id="org.gecko.bndtools.templates.emf.model" name="Gecko EMF Model Project Template" description="Gecko EMF Model Project Template">
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/org.eclipse.fennec.templates.emf.model">
+  <OCD id="org.eclipse.fennec.templates.emf.model" name="Fennec EMF Model Project Template" description="Fennec EMF Model Project Template">
     <AD id="EcoreFileName" type="String" name="Ecore File Name" description="The name of the ecore file. No .ecore extension is required" default="example-file"/>
     <AD id="EcorePackageName" type="String" name="Ecore Package Name" description="The name of the package in the ecore file" default="examplePackageName"/>
     <AD id="EcoreURI" type="String" name="Ecore URI" description="The URI of the package in the ecore file" default="http://example.de/example/1.0"/>

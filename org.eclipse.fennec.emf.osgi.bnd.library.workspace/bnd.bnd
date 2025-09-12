@@ -5,11 +5,11 @@ mavendeps: ${sjoin;\n; ${template;-maven-dependencies;${@}}}
 -includeresource: {resources}
 	
 Provide-Capability: \
-	${gecko-base}
+	${fennec-base}
 
-gecko-base:\
+fennec-base:\
     bnd.library;\
-        bnd.library     = geckoEMF; \
+        bnd.library     = fennecEMF; \
         path            = template
 Bundle-Name: EMF OSGi Bndtools Workspace Library
 Bundle-Description: EMF OSGi Bndtools Workspace Library
