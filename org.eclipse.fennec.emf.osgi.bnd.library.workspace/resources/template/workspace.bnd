@@ -1,8 +1,8 @@
--plugin.geckoEMF: \
+-plugin.fennecEMF: \
 	aQute.bnd.repository.maven.provider.MavenBndRepository;\
-		releaseUrl			= "https://repo.maven.apache.org/maven2/,https://devel.data-in-motion.biz/nexus/repository/dim-release/"; \
-		snapshotUrl			= "https://devel.data-in-motion.biz/nexus/repository/dim-snapshot/";\
-		index            = "\${.}/geckoEMF.maven" ;\
+		snapshotUrl=https://central.sonatype.com/repository/maven-snapshots/; \
+        releaseUrl=https://central.sonatype.com/; \
+		index            = "\${.}/fennecEMF.maven" ;\
 		readOnly            = true;\
 		name="Eclipse Fennec EMF Dependencies - ${Bundle-Version}"
 		
