@@ -11,4 +11,6 @@ javac.target: 17
 	org.osgi.util.promise,\
 	org.osgi.util.function,\
 	org.eclipse.fennec.emf.osgi.codegen;version=snapshot,\
-	aQute.libg
+	aQute.libg,\
+	assertj-core,\
+	junit-jupiter-api
