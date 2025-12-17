@@ -98,7 +98,6 @@ biz.aQute.bnd:biz.aQute.bnd.javagen:7.1.0
 org.eclipse.platform:org.eclipse.core.runtime:3.33.0
 org.eclipse.platform:org.eclipse.osgi:3.23.0
 
-
 org.eclipse.fennec.bnd:org.eclipse.fennec.bnd.library:0.0.3-SNAPSHOT
 org.eclipse.fennec.bnd:org.eclipse.fennec.osgitest.bnd.library:0.0.3-SNAPSHOT
 org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.39.0
