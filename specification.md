@@ -158,8 +158,8 @@ EMF_MODEL_FEATURE = "emf.feature"        // String[] - feature identifiers
 ### Core EMF Dependencies
 ```xml
 <!-- EMF Core -->
-org.eclipse.emf:org.eclipse.emf.ecore:2.40.0-SNAPSHOT
-org.eclipse.emf:org.eclipse.emf.common:2.43.0-SNAPSHOT
+org.eclipse.emf:org.eclipse.emf.ecore:2.40.0
+org.eclipse.emf:org.eclipse.emf.common:2.43.0
 org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.38.0
 
 <!-- EMF Code Generation (for codegen module) -->

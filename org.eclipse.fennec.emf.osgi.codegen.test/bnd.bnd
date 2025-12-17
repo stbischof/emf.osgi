@@ -13,4 +13,4 @@ javac.target: 17
 	org.eclipse.fennec.emf.osgi.codegen;version=snapshot,\
 	aQute.libg,\
 	assertj-core,\
-	junit-jupiter-api
+	${junit}

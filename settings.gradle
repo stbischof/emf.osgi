@@ -11,6 +11,13 @@ pluginManagement {
         includeGroup('biz.aQute.bnd.workspace')
       }
     }
+    maven {
+      url = uri(bnd_rc)
+      content {
+        includeGroup('biz.aQute.bnd')
+        includeGroup('biz.aQute.bnd.workspace')
+      }
+    }
     mavenCentral()
     gradlePluginPortal()
     rootProject.name="org.eclipse.fennec.osgi.emf"

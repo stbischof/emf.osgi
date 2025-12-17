@@ -21,4 +21,4 @@
 -jpms-module-info:	
 
 -sub: *.bnd
--testpath: junit-jupiter-api
+-testpath: ${junit}

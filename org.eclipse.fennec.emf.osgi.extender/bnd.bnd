@@ -12,4 +12,4 @@
 	
 Bundle-Name: EMF OSGI Model Extender
 Bundle-Description: EMF OSGi extender implementation for EMF Models
--testpath: junit-jupiter-api
+-testpath: ${junit}
